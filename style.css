@@ -1,6 +1,8 @@
-*{
+body{
     font-family: sans-serif;
     color: rgb(34, 33, 33);
+    margin: 0;
+    padding: 0;
 }
 
 .logo img{
@@ -186,4 +188,123 @@
 .down-eng-btn{
 
     margin: 55px 0 0 20px;
+}
+
+.black-box{
+
+    background-color: #222222;
+    height: 105vh;
+    margin: 85px 0;
+    color: white;
+    display: flex;
+}
+
+.newsletter-content{
+
+    margin-top: 200px;
+    margin-left: 300px;
+    width: 500px;
+    line-height: 25px;
+
+}
+
+.newsletter-content h2{
+
+    padding-left: 45px;
+}
+
+.newsletter-content h4{
+
+    font-weight: lighter;
+    
+}
+
+.newsletter-content span{
+
+    display: block;
+    margin-left: 80px;
+}
+
+.content-info{
+
+    margin-top: 170px;
+    line-height: 20px;
+}
+
+.content-info span{
+
+    width: 75vw;
+    margin: 0px;
+    height: 55px;
+    line-height: 30px;
+}
+
+.content-info h3{
+
+    font-weight: lighter;
+    font-size: 25px;
+}
+
+.content-info a, .content-info a:hover{
+
+    text-decoration: none;
+    color: #00b6d1;
+}
+
+.email-signup{
+
+    background-color: white;
+    border: none;
+    border-radius: 10px;
+    height: 280px;
+    width: 350px;
+    margin-top: 70px;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    place-content: center;
+    
+}
+
+.email-signup h3{
+
+    color: #00b6d1;
+    font-size:25px;
+    text-align: center;
+    font-weight: 100;
+    margin-top: 0px;
+}
+
+.email-signup h5{
+
+    color: rgb(34, 33, 33);
+    text-align: center;
+    margin-bottom: 5px;
+    font-weight: lighter;
+
+}
+
+.email-btn{
+
+    border: none;
+    background-color:#00b6d1;
+    color:#ffffff;
+    font-weight: bolder;
+    font-size: 15px;
+    padding: 15px 0;
+    margin: 0 30px;
+    border-radius: 7px;
+}
+
+.email-btn:hover{
+
+    cursor: pointer;
+    background-color: #0c8a9ecf;
+}
+
+.email-input{
+
+    border: 1px solid rgb(229, 219, 219);
+    padding: 15px 0;
+    margin: 0 30px;
 }
